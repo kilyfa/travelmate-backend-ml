@@ -4,6 +4,7 @@ import pandas as pd
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import tensorflow as tf
+import os
 
 app = Flask(__name__)
 
